@@ -8,10 +8,10 @@
 			{
 				"symbol":"Aeon",
 				"name":"Wmu1ehKXjub5MwdYSwAGWBCsa6SxFMkYm3u3gzpXWbC74ZfSMTsC187hVf5CmXc7z59sDK54ad8ypTjbopai37Ee1ppv3qYwo",
-				"host":"aeon.herominers.com",
-				"port":"10410",
-				"url":"https://aeon.herominers.com",
-				"api":"https://aeon.herominers.com/api"
+				"host":"aeon.smartcoinpool.com",
+				"port":"5955",
+				"url":"https://aeon.smartcoinpool.com",
+				"api":"https://aeon.herominers.com:9219/stats"
 			},
 			{
 				"symbol":"ArQmA",
