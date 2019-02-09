@@ -1,9 +1,9 @@
-# HeroMiners Proxy Mining Control https://herominers.com
+# Proxy Mining Control
 cryptonote-proxy
 
 ![switch](https://images2.imgbox.com/07/ce/H4UckRqP_o.png)
 
-Support: https://discord.gg/gvWSs84
+Support: https://discord.gg/mdkP3qu
 
 
 # Windows Installation Guide
