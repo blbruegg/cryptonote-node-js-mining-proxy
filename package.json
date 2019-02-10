@@ -2,11 +2,11 @@
   "name": "cryptonote-proxy",
   "version": "4.0.0",
   "license": "0BSD",
-  "authors": "HeroMiners",
+  "authors": "HeroMiners(original), Smartcoinpool Fork",
   "main": "proxy.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/herominers/cryptonote-proxy.git"
+    "url": "https://github.com/blbruegg/cryptonote-proxy.git"
   },
   "dependencies": {
     "bignumber.js": "^5.0.0",
