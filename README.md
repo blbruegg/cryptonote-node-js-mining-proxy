@@ -47,7 +47,7 @@ Now open command prompt by going Search, type cmd, enter
 		
 <blockquote>
 <b>
-git clone https://github.com/herominers/cryptonote-proxy.git
+git clone https://github.com/blbruegg/cryptonote-proxy.git
 </b>
 </blockquote>
 	
@@ -147,7 +147,7 @@ That’s it!
   
   
   
-# Linux Installation Guide: https://graft.herominers.com/#linux
+# Linux Installation Guide
 
 
 
@@ -181,7 +181,7 @@ $ sudo apt-get install git nodejs nano
 <b>Git</b> is a convenience, and will make this guide a lot easier to follow. 
 
 
-If you do not wish to install git, you'll have to download and extract the cryptonote-proxy manually from <a target="_blank" title="Cryptonote Proxy" alt="Cryptonote Proxy" rel="nofollow" href="https://github.com/herominers/cryptonote-proxy">https://github.com/herominers/cryptonote-proxy</a> 
+If you do not wish to install git, you'll have to download and extract the cryptonote-proxy manually from <a target="_blank" title="Cryptonote Proxy" alt="Cryptonote Proxy" rel="nofollow" href="https://github.com/blbruegg/cryptonote-proxy">https://github.com/blbruegg/cryptonote-proxy</a> 
 
 
 <b>Nano</b> is simply an easy-to-use console-base text editor. If you are running a desktop version of Linux or have a Bash on Windows installation of Linux, you can skip installing this.
@@ -194,7 +194,7 @@ We can now clone the latest version of cryptonote-proxy from github and install 
 <b>
 $ cd ~
 
-$ git clone https://github.com/herominers/cryptonote-proxy.git
+$ git clone https://github.com/blbruegg/cryptonote-proxy.git
 
 $ cd cryptonote-proxy
 
@@ -273,13 +273,13 @@ Each pool has an entry that looks like this:
 
 "name":"GAhmkFwdUqLW6cKUwjH44scujPpb2kS4yWSrLhSYAj1zdLXkvsnUmrFTSFJ45sAi1AY1eN1rs4N6QQbGxxcAGjndMyrUMi4",
 
-"host":"graft.herominers.com",
+"host":"graft.smartcoinpool.com",
 
-"port":"10100",
+"port":"3934",
 
-"url":"https://graft.herominers.com",
+"url":"https://graft.smartcoinpool.com",
 
-"api":"https://graft.herominers.com/api"
+"api":"https://graft.smartcoinpool.com/api/stats"
 },
 </b>
 </blockquote>
@@ -294,9 +294,9 @@ Configuring this is fairly straightforward if you have used mining software befo
 
 One of these can be set to the "default" option above, which will auto-select that pool when you start cryptonote-proxy.
 
-"url" is the url of the pool (for example: https://graft.herominers.com). If the pool supports it, this will also autofill your wallet info in its stat tracker.
+"url" is the url of the pool (for example: https://graft.smartcoinpool.com). If the pool supports it, this will also autofill your wallet info in its stat tracker.
 
-"api" is the pool api where your proxy pull to display additional stats (for example: https://graft.herominers.com/api)
+"api" is the pool api where your proxy pull to display additional stats (for example: https://graft.smartcoinpool.com/api/stats)
 
 Save the file once done (Press <b>Ctrl-X</b> in nano to exit and save).
 
@@ -372,49 +372,53 @@ That’s it!
 
 
 
-HeroMiners CryptoNight Pool List
+Smartcoinpool CryptoNight Pool List
 
 CryptoNight
-Dero Mining Pool: https://dero.herominers.com/
-Electroneum Mining Pool: https://electroneum.herominers.com/
-Karbo Mining Pool: https://karbo.herominers.com/
-Sumokoin (SUMO) Mining Pool: https://sumo.herominers.com/
+Dero Mining Pool: https://dero.smartcoinpool.com/
+Geem Mining Pool: https://geem.smartcoinpool.com/
+Beldex Mining Pool: https://beldex.smartcoinpool.com/
 
 CryptoNight v8
-Graft Mining Pool: https://graft.herominers.com/
-Lethean Mining Pool: https://lethean.herominers.com/
-Monero Mining Pool: https://monero.herominers.com/
-Safex Mining Pool: https://safex.herominers.com/
-X-Cash Mining Pool: https://xcash.herominers.com/
+Graft Mining Pool: https://graft.smartcoinpool.com/
+Pyrex Mining Pool: https://pyrex.smartcoinpool.com/
+Monero Mining Pool: https://monero.smartcoinpool.com/
+Safex Mining Pool: https://safex.smartcoinpool.com/
 
 CryptoNight v7
-Citadel Mining Pool: https://citadel.herominers.com/
-MoneroV Mining Pool: https://monerov.herominers.com/
-Quantum Resistant Ledger (QRL) Mining Pool: https://qrl.herominers.com/
+Mutex Mining Pool: https://mutex.smartcoinpool.com/
 
 CryptoNight Heavy
-Loki Mining Pool: https://loki.herominers.com/
-Ryo Mining Pool: https://ryo.herominers.com/
+Loki Mining Pool: https://loki.smartcoinpool.com/
+Ryo Mining Pool: https://ryo.smartcoinpool.com/
+Niobio Mining Pool:  https://niobio.smartcoinpool.com/
+Koson Mining Pool:  https://koson.smartcoinpool.com/
+Ombre Mining Pool:  https://ombre.smartcoinpool.com/
 
 CryptoNight Heavy-Saber
-BitTube Mining Pool: https://tube.herominers.com/
+BitTube Mining Pool: https://bittube.smartcoinpool.com/
 
 CryptoNight Heavy-Haven
-BLOC (Bloc.money) Mining Pool: https://bloc.herominers.com/
-Haven Mining Pool: https://haven.herominers.com/
-Saronite Mining Pool: https://saronite.herominers.com/
-
-CryptoNight Fast
-Conceal Mining Pool: https://conceal.herominers.com/
-Masari Mining Pool: https://masari.herominers.com/
+Haven and BLOC.money merged Mining Pool: https://blochaven.smartcoinpool.com/
+Saronite Mining Pool: https://saronite.smartcoinpool.com/
+Italo Mining Pool:  https://italo.smartcoinpool.com/
 
 CryptoNight XTL
-Stellite Mining Pool: https://stellite.herominers.com
+Stellite Mining Pool: https://stellite.smartcoinpool.com
 
 CryptoNight Light v1
-Aeon Mining Pool: https://aeon.herominers.com/ 
-ArQmA Mining Pool: https://arqma.herominers.com/
-TurtleCoin Mining Pool: https://turtlecoin.herominers.com/ 
+Aeon Mining Pool: https://aeon.smartcoinpool.com/ 
+ArQmA and Iridium Merged Mining Pool: https://arqidium.smartcoinpool.com/
+Triton and Iridium Merged Mining Pool:  https://triton.smartcoinpool.com/
+Bitsum Mining Pool:  https://bitsum.smartcoinpool.com/
+BitcoiNote Mining Pool:  https://bitcoinote.smartcoinpool.com/
+Lumeneo Mining Pool:  https://lumeneo.smartcoinpool.com/
+Tritanium Mining Pool:  https://tritanium.smartcoinpool.com/
+
+CryptoNight Pico
+TurtleCoin Mining Pool: https://turtle.smartcoinpool.com/ 
+Plenteum Mining Pool:  https://plenteum.smartcoinpool.com/
+
 
 Happy Hashing.
 
