@@ -1,7 +1,17 @@
+// Description of Parameters
+//Symbol = Coin to pull from stats
+//Name = Parent Coin or Solo Coin Wallet Address
+//MergePW = Alternate Coin Wallet Address for merge mined coins. Append @workername to end of this address for rig name
+//Port = Mining port to connect to
+//Host = address to send hash before port
+//URL = Pool Website
+//API = text based output of pool statistics
+
+
 {
 	"workerport":2349,
 	"httpport":2350,
-	"default":"Monero",
+	"default":"XHV",
 	"pools":
 	{
 		"userA":[
@@ -11,128 +21,106 @@
 				"host":"aeon.smartcoinpool.com",
 				"port":"5955",
 				"url":"https://aeon.smartcoinpool.com",
-				"api":"https://aeon.smartcoinpool.com:9219/stats"
+				"stats":"https://aeon.smartcoinpool.com:9219/stats"
 			},
 			{
-				"symbol":"ArQmA",
+				"symbol":"Arqma",
 				"name":"ar2wzGgpvZK8TbPriqbf5ha8BkUYzhHvJ8ikqXLYqGRKWtVNu2EgJaMMCR8q3KuFkUXKNKwmKy3SEgwuxkBdZup834279Bdzg",
 				"mergepw":"ir2KG2wx6J23T8z2fnXYpci5L86cM2Jq47iqLN1MRN5LChLRPP7zG7df2rn9K7odYujkbkxHeeVDpRBr7TvRHGS32z1xxXGEs",
 				"host":"arqidium.smartcoinpool.com",
 				"port":"9955",
 				"url":"https://arqidium.smartcoinpool.com",
-				"api":"https://arqidium.smartcoinpool.com:8889/stats"
+				"stats":"https://arqidium.smartcoinpool.com:8889/stats"
 			},
 			{
-				"symbol":"Bloc",
-				"name":"abLoc8XdUpoiykYNyPtwmoJAAjW1zSECf4D52zMd4gzrcQNkDJtTjeX54Kc7MfEHDKZUdk1sQ4QWSHRtb8Cfau3WgHt63sgy1gH",
-				"host":"bloc.smartcoinpool.com",
-				"port":"10240",
-				"url":"https://bloc.smartcoinpool.com",
-				"api":"https://bloc.smartcoinpool.com/api"
+				"symbol":"Haven+BLOC",
+				"name":"hvxxyvJyJXjESQXuzKCegCVkXdoyBUvtKLXRGAfA3hXTckG1mwLHEUTG8G1ajUhfnVDYifc4uEXhDQEh7L7hsmiX8n2CdcMMKC",
+				"mergepw":"abLoc8XdUpoiykYNyPtwmoJAAjW1zSECf4D52zMd4gzrcQNkDJtTjeX54Kc7MfEHDKZUdk1sQ4QWSHRtb8Cfau3WgHt63sgy1gH",
+				"host":"blochaven.smartcoinpool.com",
+				"port":"3872",
+				"url":"https://blochaven.smartcoinpool.com",
+				"stats":"https://blochaven.smartcoinpool.com/stats"
 			},
 			{
 				"symbol":"BitTube",
-				"name":"bxdcdzc8EdbT2eGjp59JnjanBaPbJNpsVA5peicUYaTeiJN6Udayx6WTRsaXF9dLz7MR7GPgXs6mobnmHGfxA34b1Wr7365xK",
-				"host":"tube.smartcoinpool.com",
-				"port":"10280",
+				"name":"bxdE1524rwGh596hCiXwUuM33A87njHo9avgq6QK95Dd6eBG6imVG98Z185HagCWXMQjFo6UZfuQyKPWzwEF2UYq36FsKbCRM",
+				"host":"bittube.smartcoinpool.com",
+				"port":"31777",
 				"url":"https://bittube.smartcoinpool.com",
-				"api":"https://bittube.smartcoinpool.com/api"
-			},
-			{
-				"symbol":"Citadel",
-				"name":"cxqGZotNxWpNgLH1TCKd23CYhc7azUB9hX7uQLQAQbEELaEbbDRGxedAgfbrrdsGs6WtzBTnSvHaFcxbtb4RBB2B1yXs5aazj",
-				"host":"citadel.smartcoinpool.com",
-				"port":"10420",
-				"url":"https://citadel.smartcoinpool.com",
-				"api":"https://citadel.smartcoinpool.com/api"
-			},
-			{
-				"symbol":"Conceal",
-				"name":"ccx7bTsN6cWBSPjdj6RisRcmPYNTKuVA1hno8N6aPFVs1ZMjb5GRVfy1VpS73eaTra6g6E4i2WjKKPy3yTQFAUWQ8Fr5tk5kJb",
-				"host":"conceal.smartcoinpool.com",
-				"port":"10360",
-				"url":"https://conceal.smartcoinpool.com",
-				"api":"https://conceal.smartcoinpool.com/api"
+				"stats":"https://bittube.smartcoinpool.com:31119/stats"
 			},
 			{
 				"symbol":"Dero",
-				"name":"dERoWgmR1wWSeXiTHXuwrDLxC594YDMriTgjEL5ZmA8WJsB3595cU8AYywJb1Z2s7c5GELPj3vhnpf3iAy3va9z92sVyVbRL2q",
+				"name":"dERonXFj36cC7vyyUfe4hkVNAGqrr8aCu8ZPHAyN1sL7dDUqyZ6QVaXb7LQFQBn6T7f9NfMPhNEmfUNxLTWrZVK35jeRAoF5Rx",
 				"host":"dero.smartcoinpool.com",
-				"port":"10120",
+				"port":"10777",
 				"url":"https://dero.smartcoinpool.com",
-				"api":"https://dero.smartcoinpool.com/api"
+				"stats":"https://dero.smartcoinpool.com:10119/stats"
 			},
 			{
-				"symbol":"Electroneum",
-				"name":"etnk4ev5brk9yTvCfDav1uQrBovLSgrqeFrr8wqHRNz9cqUu7nWgwGjefDpsLmKs4jLKJ3Tn44exM2qENVpW7gLC9krLLMfB2j",
-				"host":"electroneum.smartcoinpool.com",
-				"port":"10210",
-				"url":"https://electroneum.smartcoinpool.com",
-				"api":"https://electroneum.smartcoinpool.com/api"
+				"symbol":"Triton+Iridium",
+				"name":"TvywnuXyQRNPhTqp71HSczcJSFyZg6gtb5WUg3M3QKhqbG9QszmcjxUfUAMBrTHC7bGjbkA8i1w9LKuRF3hmFNFw1AeGeZw1i",
+				"mergepw":"ir2KG2wx6J23T8z2fnXYpci5L86cM2Jq47iqLN1MRN5LChLRPP7zG7df2rn9K7odYujkbkxHeeVDpRBr7TvRHGS32z1xxXGEs",
+				"host":"triton.smartcoinpool.com",
+				"port":"3333",
+				"url":"https://triton.smartcoinpool.com",
+				"stats":"https://triton.smartcoinpool.com:8119/stats"
 			},					
 			{
 				"symbol":"Graft",
 				"name":"GAhmkFwdUqLW6cKUwjH44scujPpb2kS4yWSrLhSYAj1zdLXkvsnUmrFTSFJ45sAi1AY1eN1rs4N6QQbGxxcAGjndMyrUMi4",
 				"host":"graft.smartcoinpool.com",
-				"port":"10100",
+				"port":"3932",
 				"url":"https://graft.smartcoinpool.com",
-				"api":"https://graft.smartcoinpool.com/api"
+				"stats":"https://graft.smartcoinpool.com/api/stats"
 			},
 			{
-				"symbol":"Haven",
-				"name":"hvxy4HrrbCdZoUQTusiZrSBNarwJ8ycTxWZtnsbZHZ62YNm7RejqXGyDHcnfGWibEZ8cxXAhTccgJf3nKSfTCiHb2iKnwBG6L2",
-				"host":"haven.smartcoinpool.com",
-				"port":"10140",
-				"url":"https://haven.smartcoinpool.com",
-				"api":"https://haven.smartcoinpool.com/api"
+				"symbol":"Plenteum",
+				"name":"PLeazLZHjV5CUxrT2TrLfQMzZ2PeqqVMDKTRqGiry1AKc2KxEvfuMcZ6M8PWyhVcpig78sUNchTtwEGtMXiAw5rj7rGRoPcMvy",
+				"host":"plenteum.smartcoinpool.com",
+				"port":"5132",
+				"url":"https://plenteum.smartcoinpool.com",
+				"stats":"https://plenteum.smartcoinpool.com:5140/stats"
 			},
 			{
-				"symbol":"Lethean",
-				"name":"iz4Cnp6ZAtmHDvp8oBf1EF85NCjUidrLDPUEz24s8YUKLZ4SqREVWqt4K4i2NNFRGdNV47ybParZHBe4xA5DCJvs1uH2s35AX",
-				"host":"intensecoin.smartcoinpool.com",
-				"port":"10180",
-				"url":"https://lethean.smartcoinpool.com",
-				"api":"https://lethean.smartcoinpool.com/api"
-			},
-			{
-				"symbol":"Karbo",
-				"name":"KcuYhse2g9RUJ7HBAVHXg2gidQiy1ZEA2MeghMuA5ASsAgWvoM19rWsZBny1YmuPTw38s194iaLVaG19QNLGu42Z6XdZFbi",
-				"host":"karbo.smartcoinpool.com",
-				"port":"10250",
-				"url":"https://karbo.smartcoinpool.com",
-				"api":"https://karbo.smartcoinpool.com/api"
+				"symbol":"Turtle",
+				"name":"TRTLv3RF8tXdoaKNzk4Jm7HuGot6n7jv2BFMW2kAyynvVoPzBXhwqHf8TKCvZYpF1A8DXmMs62d8Wehm5WiVuAJcRhkHG6JNQFH",
+				"host":"turtle.smartcoinpool.com",
+				"port":"3110",
+				"url":"https://turtle.smartcoinpool.com",
+				"stats":"https://turtle.smartcoinpool.com:3109/stats"
 			},
 			{
 				"symbol":"Loki",
-				"name":"LAtfY5HQZhLirHfvwUAof5PxoSSuRxQds9AgyfXdruuBMVjX893xGEmQPzjbZAjUGp2wUDdhFM4dT82UJujBLnW2UxUvAax",
+				"name":""L4yiZn46KNDS69a9vN6pnyK6kuWmHYZW78ArKbowMmbqJjqBZ3DRftUfEEhutMq1iccbVWtJpxv4t43mmVqbNBpSJEDK1GQ",
 				"host":"loki.smartcoinpool.com",
-				"port":"10110",
+				"port":"4132",
 				"url":"https://loki.smartcoinpool.com",
-				"api":"https://loki.smartcoinpool.com/api"
+				"stats":"https://loki.smartcoinpool.com/stats"
 			},
 			{
-				"symbol":"Masari",
-				"name":"5nC9LVzCViyaHhF5HK3WjMGrKS6ZFGfhZaakeeMm8Nhp1hgWxHGVNwme1dAoA7pqu6SrtPcq3oRp4aWoStrhZsM659pLQNH",
-				"host":"masari.smartcoinpool.com",
-				"port":"10150",
-				"url":"https://masari.smartcoinpool.com",
-				"api":"https://masari.smartcoinpool.com/api"
+				"symbol":"Bitsum",
+				"name":"Sm2xKtSgnVbJuxt2THN69YPexrhkfhWejVuk4T5X1n9KcqkYSmPRWFphfYNXCBWV1vXf77H1M2U4Xe6n81FhzU8a2pJzyzDVB",
+				"host":"bitsum.smartcoinpool.com",
+				"port":"6107",
+				"url":"https://bitsum.smartcoinpool.com",
+				"stats":"https://bitsum.smartcoinpool.com:6112/stats"
 			},
 			{
 				"symbol":"Monero",
-				"name":"4BCwyiNZB1YPb6styfRQTvTxa2f7bGNh6H8FR4D13uZwKjQ7TqVPSXfQm13VCWF4A9FwbYFSxicAWFye7yU7j1FkRzKCCZE",
+				"name":"45qenRyTaiQNW3wL25MMsv2hTSYuHc9JYAtxXec7TCsG2hHboyxtq92FyrZEihLHzjAsgig5Jxtvn9a3yTK7MXUiVJ6boH2",
 				"host":"monero.smartcoinpool.com",
-				"port":"10190",
+				"port":"11111",
 				"url":"https://monero.smartcoinpool.com",
-				"api":"https://monero.smartcoinpool.com/api"
+				"stats":"https://monero.smartcoinpool.com/stats"
 			},
 			{
-				"symbol":"MoneroV",
-				"name":"43Ywh99qyjzCziG2xJ87FUf51FQh4zeQoisxPZsgsE1EKt6VZGcxEqWSaQjGShSiH741USrogA5Dn1S8DsKJY6kcGhBNJJZ",
-				"host":"monerov.smartcoinpool.com",
-				"port":"10200",
-				"url":"https://monerov.smartcoinpool.com",
-				"api":"https://monerov.smartcoinpool.com/api"
+				"symbol":"Bitcoinote",
+				"name":"",
+				"host":"bitcoinote.smartcoinpool.com",
+				"port":"3434",
+				"url":"https://bitcoinote.smartcoinpool.com",
+				"stats":"https://bitcoinote.smartcoinpool.com/api/stats"
 			},
 			{
 				"symbol":"QuantumResistantLedger",
@@ -140,23 +128,23 @@
 				"host":"qrl.smartcoinpool.com",
 				"port":"10370",
 				"url":"https://qrl.smartcoinpool.com",
-				"api":"https://qrl.smartcoinpool.com/api"
+				"stats":"https://qrl.smartcoinpool.com/stats"
 			},
 			{
 				"symbol":"Ryo",
-				"name":"Sumoo4x8qeRFMqhtyFHW98ENzWH2Pvdfsceay9BckWBx88Di4YKbAMHRMXVeDN9Fo6gfaZymnpoFgBroMocnMkUFgEZ4FdkDK1C",
+				"name":"RYoLsgxx9tyYafXf98EGoEHFSDL47G1fDd2ySfsBxpKG8wmGf8gWEL53qHFdAoshgaG3zjpiwPWH6jT5bZZHhXJideSK7ZA6iS1",
 				"host":"ryo.smartcoinpool.com",
-				"port":"10270",
+				"port":"9133",
 				"url":"https://ryo.smartcoinpool.com",
-				"api":"https://ryo.smartcoinpool.com/api"
+				"stats":"https://ryo.smartcoinpool.com:8919/stats"
 			},
 			{
 				"symbol":"Safex",
-				"name":"Safex5zdEqgLfMiU39VRBJBurdwJZrwHaS1fcDBctqR38f1qnnGt8i8RWwAU5ET9JmbuUu76jApvbd7tCH9AyNy17SCHT1eJamg3f",
+				"name":"Safex5ytcEaHFscNoBxmQXQTBVtb6mcRFLgWomA4JRVA24WMVwkntAgQnECecxknakdy9d44saQFKCenSyECU472YamWoR88pwe1e",
 				"host":"safex.smartcoinpool.com",
-				"port":"10431",
+				"port":"4234",
 				"url":"https://safex.smartcoinpool.com",
-				"api":"https://safex.smartcoinpool.com/api"
+				"stats":"https://safex.smartcoinpool.com/api/stats"
 			},
 			{
 				"symbol":"Saronite",
@@ -164,31 +152,47 @@
 				"host":"saronite.smartcoinpool.com",
 				"port":"10230",
 				"url":"https://saronite.smartcoinpool.com",
-				"api":"https://saronite.smartcoinpool.com/api"
+				"stats":"https://saronite.smartcoinpool.com/stats"
 			},
 			{
 				"symbol":"Sumo",
-				"name":"Sumoo2gbXxEMDcmU6un7bxMcnMM7jo3a5UDfub6njNhaQsZfHKgsQPUFgc6b3WhsBuCZPz3dqzBU1QCo6fMApu5m8KU8Bxq1RyQ",
+				"name":"Sumoo6RgXuXMwQxHEcRmkL5sipW637UJcBkvWQxaBosLeFvDBKufNgT8FVrsbiGwdxACazzWTeWU7V27KvQTcbShH4vFZ8HfovJ",
 				"host":"sumo.smartcoinpool.com",
-				"port":"10230",
+				"port":"17333",
 				"url":"https://sumo.smartcoinpool.com",
-				"api":"https://sumo.smartcoinpool.com/api"
+				"stats":"https://sumo.smartcoinpool.com:17119/stats"
+			},
+			{
+				"symbol":"Ombre",
+				"name":"cash9iKYUqBcEyiB7nQ6xBQb9h66e5NfTcSCHzaN73AW3K8jQa8F5K4dvpr9HGGLT3jiWkBy69KLvdXZhoJqzFxP6CusXRsna1",
+				"host":"ombre.smartcoinpool.com",
+				"port":"3334",
+				"url":"https://ombre.smartcoinpool.com",
+				"stats":"https://ombre.smartcoinpool.com:8137/stats"
+			},
+			{
+				"symbol":"",
+				"name":"cash9iKYUqBcEyiB7nQ6xBQb9h66e5NfTcSCHzaN73AW3K8jQa8F5K4dvpr9HGGLT3jiWkBy69KLvdXZhoJqzFxP6CusXRsna1",
+				"host":"ombre.smartcoinpool.com",
+				"port":"3334",
+				"url":"https://ombre.smartcoinpool.com",
+				"stats":"https://ombre.smartcoinpool.com:8137/stats"
 			},
 			{
 				"symbol":"Stellite",
-				"name":"Se3BmhnLSFtPe2cNH3y2nF7hbtVny9vgMGioWd9uA6fN3ubFsb7w3bZ9pY7dLtxEwkYmMywdRhNgA2UFgBmxAvu41SXGdNCNG",
+				"name":"Se3sfhL6RE9S6rZ55zdBTjbz3RXtWZEHZa2P1XV5MK5LfKcDefj6EihKP3P6bmLvsfjdyNpz5Jhm2BPpPjhUopAL1ZpMoBShk",
 				"host":"stellite.smartcoinpool.com",
-				"port":"10130",
+				"port":"3003",
 				"url":"https://stellite.smartcoinpool.com",
-				"api":"https://stellite.smartcoinpool.com/api"
+				"stats":"https://stellite.smartcoinpool.com:3019/stats"
 			},
 			{
-				"symbol":"X-CASH",
-				"name":"XCA1r5yGE6QCvXo2o64eoPDS7cwoY9X8hcVCmioX6Ya7BKN8kAbqDv15BsAEPUjRXva5tV2VGt6A46uCwSEMSbT18Ae8dDQcN2",
-				"host":"xcash.smartcoinpool.com",
-				"port":"10440",
-				"url":"https://xcash.smartcoinpool.com",
-				"api":"https://xcash.smartcoinpool.com/api"
+				"symbol":"Tritanium",
+				"name":"",
+				"host":"tritanium.smartcoinpool.com",
+				"port":"3832",
+				"url":"https://tritanium.smartcoinpool.com",
+				"stats":"https://tritanium.smartcoinpool.com/api/stats"
 			}
 			],
 		"userB":[
@@ -198,7 +202,7 @@
 				"host":"bittube.smartcoinpool.com",
 				"port":"10280",
 				"url":"https://bittube.smartcoinpool.com",
-				"api":"https://bittube.smartcoinpool.com/api"
+				"stats":"https://bittube.smartcoinpool.com/stats"
 			},
 			{
 				"symbol":"Graft",
@@ -206,7 +210,7 @@
 				"host":"graft.smartcoinpool.com",
 				"port":"10100",
 				"url":"https://graft.smartcoinpool.com",
-				"api":"https://graft.smartcoinpool.com/api"
+				"stats":"https://graft.smartcoinpool.com/stats"
 			},
 			{
 				"symbol":"Haven",
@@ -214,7 +218,7 @@
 				"host":"haven.smartcoinpool.com",
 				"port":"10140",
 				"url":"https://haven.smartcoinpool.com",
-				"api":"https://haven.smartcoinpool.com/api"
+				"stats":"https://haven.smartcoinpool.com/stats"
 			},
 			{
 				"symbol":"Loki",
@@ -222,7 +226,7 @@
 				"host":"loki.smartcoinpool.com",
 				"port":"10110",
 				"url":"https://loki.smartcoinpool.com",
-				"api":"https://loki.smartcoinpool.com/api"
+				"stats":"https://loki.smartcoinpool.com/stats"
 			}
 		]
 	}
